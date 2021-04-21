@@ -1,0 +1,135 @@
+/*#32325d*/
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4859AF; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #071B7C; 
+}
+body {
+    background: #f6f9fc;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    border-radius: 50%;
+    border: 1px #f0f0f0 solid;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    position: relative;
+
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.btn {
+    border: 1px solid white;
+    transition: ease all .5s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px white;
+    transition: ease all .5s;
+}
+
+.cd {
+    box-shadow: 0px 0px 15px 1px black;
+    transition: 0.3s;
+}
+
+.cd:hover {
+    transform: scale(1.05);
+}
+
+.stripe {
+    margin-top: 160px;
+/*    display: grid;*/
+    align-content: space-between;
+    height: 750px;
+    
+/*    grid: repeat(4, 200px)/1fr minmax(0, calc(1040px - 20px * 2)) 1fr;*/
+    background: linear-gradient(100grad, #545fdd, #6772e5 50%);
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    transform: skewY(-7deg);
+}
+
+.dev:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 50px;
+    height: 870px;
+    /*background: linear-gradient(192deg,#b2cbe1,#f6f9fc 42%);*/
+    background: linear-gradient(-12deg, #7795f8 50%, #6772e5 80%, #555abf);
+    z-index: -1;
+
+    transform: skew(0, -7deg);
+}
+
+.card-body > p {
+    font-family: cursive;
+}
+
+center > span {
+    font-size: 40px;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    font-family: monospace;
+    color: white;
+}
+.dev_img{
+    height: 300px;
+    width: 300px;
+}
+table{
+    border: 1px solid white;
+    font-size: 20px;
+    font-family:cursive;
+    font-weight: 500;
+}
+td th{
+    padding-left: 20px;
+}
+.reach:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 150px;
+/*    height: 870px;*/
+    background: linear-gradient(192deg,#b2cbe1,#f6f9fc 42%);
+/*    background: linear-gradient(-12deg, #7795f8 50%, #6772e5 80%, #555abf);*/
+    z-index: -1;
+
+    transform: skew(0, -7deg);
+}
+center>h1{
+    font-family: cursive;
+    font-size: 40px;
+    color:#4859AF;
+}
